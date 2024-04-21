@@ -1,0 +1,185 @@
+html {
+    height: 100%;
+}
+
+body {
+    /*background-color: #191932;*/
+    background-image: url(./images/backe\ groung_image\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: Cover;
+    background-attachment: fixed;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+header {
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
+
+header img {
+    align-content: start;
+    height: 118px;
+}
+
+nav {
+    background-color: rgba(80, 21, 21, 0.307);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration-color: white;
+
+}
+
+main {
+
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 100px;
+}
+
+#para {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+footer {
+    background-color: rgba(12, 10, 11, 0.508);
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+
+
+.menu {
+    padding-bottom: 150px;
+}
+
+#effect:hover {
+    box-shadow: 5px 10px rgb(90, 42, 59);
+    animation: effect_animation;
+    animation-duration: 1s;
+}
+
+.menu img{
+    border-radius: 50%;
+}
+@keyframes effect_animation {
+    20% {
+        transform: scale(1.1);
+    }  
+}
+
+.Gallery {
+    padding-bottom: 150px;
+}
+
+.contact input {
+    width: 600px;
+}
+
+#btn_sendMessage {
+    background-color: orange;
+}
+
+#btn_sendMessage:hover {
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.input-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+address {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+    color: rgb(157, 157, 187);
+}
+
+.phone{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+}
+.mail{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:aqua; 
+}
+.social{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+}
+.social i:hover{
+    color: rgb(173, 101, 161);
+}
+
+
+.uparrow{
+    float:right;
+    background-color: rgb(156, 39, 82);
+    
+}
+
+.uparrow a{
+    color: black;
+}
+.uparrow a:hover{
+    color:white;
+}
